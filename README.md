@@ -34,7 +34,7 @@ pip install flask
 python3 app.py
 
 
-🕹️ How It Works:
+🕹️ Working:
 1. Add People: Add all participants to the trip.
 
 2. Log Expenses: Record who paid, how much, and who the cost is split between (splits don't have to include everyone every time).
