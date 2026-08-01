@@ -22,7 +22,7 @@ This results in $O(n^2)$ transactions in the worst case, most of which are redun
 Make sure you have Python 3 and `pip` installed.
 
 ### Installation & Running
-
+```bash
 # Clone the repository (or navigate to the project directory)
 cd settleup
 
