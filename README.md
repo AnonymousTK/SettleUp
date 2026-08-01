@@ -35,11 +35,8 @@ python3 app.py
 
 🕹️ Working:
 1. Add People: Add all participants to the trip.
-
 2. Log Expenses: Record who paid, how much, and who the cost is split between (splits don't have to include everyone every time).
-
 3. View the Ledger: The Ledger panel shows each person's net position in real-time (green means they are owed money; red means they owe).
-
 4. Settle Up: The Settlement panel calculates the minimum set of transactions required to zero everyone out, highlighting how many fewer transactions are needed compared to the naive pairwise approach.
 
 
@@ -54,6 +51,6 @@ python3 app.py
 
 
 🛠️ Technical Details:
-<b>Backend:</b> Python / Flask
-<b>Frontend:</b> Vanilla JavaScript (Fetch API), HTML5, CSS3
-<b>State Management:</b> In-memory per session using a trip_id cookie (self-contained demo requiring no database). Note that restarting the server clears all active trips.
+Backend: Python / Flask
+Frontend: Vanilla JavaScript (Fetch API), HTML5, CSS3
+State Management: In-memory per session using a trip_id cookie (self-contained demo requiring no database). Note that restarting the server clears all active trips.
