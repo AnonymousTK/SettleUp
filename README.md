@@ -23,7 +23,6 @@ Make sure you have Python 3 and `pip` installed.
 
 ### Installation & Running
 
-```bash
 # Clone the repository (or navigate to the project directory)
 cd settleup
 
@@ -54,7 +53,7 @@ python3 app.py
     └── app.js              # Frontend logic (fetch-based, vanilla JS)
 
 
-🛠️ Technical Details
-Backend: Python / Flask
-Frontend: Vanilla JavaScript (Fetch API), HTML5, CSS3
-State Management: In-memory per session using a trip_id cookie (self-contained demo requiring no database). Note that restarting the server clears all active trips.
+🛠️ Technical Details:
+<b>Backend:</b> Python / Flask
+<b>Frontend:</b> Vanilla JavaScript (Fetch API), HTML5, CSS3
+<b>State Management:</b> In-memory per session using a trip_id cookie (self-contained demo requiring no database). Note that restarting the server clears all active trips.
